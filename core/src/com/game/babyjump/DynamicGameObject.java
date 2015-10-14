@@ -1,7 +1,6 @@
-package com.game.babyjump.Helpers;
+package com.game.babyjump;
 
 import com.badlogic.gdx.math.Vector2;
-import com.game.babyjump.Objects.GameObject;
 
 public class DynamicGameObject extends GameObject {
     public final Vector2 velocity;

@@ -1,4 +1,4 @@
-package com.game.babyjump.Objects;
+package com.game.babyjump;
 
 import com.badlogic.gdx.math.Rectangle;
 import com.badlogic.gdx.math.Vector2;

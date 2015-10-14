@@ -1,6 +1,4 @@
-package com.game.babyjump.Objects;
-
-import com.game.babyjump.Helpers.DynamicGameObject;
+package com.game.babyjump;
 
 public class Baby extends DynamicGameObject {
     public static final int BOB_STATE_JUMP = 0;
@@ -11,8 +9,8 @@ public class Baby extends DynamicGameObject {
     public static final float BOB_WIDTH = 0.8f;
     public static final float BOB_HEIGHT = 0.8f;
 
-    int state;
-    float stateTime;
+    public int state;
+    public float stateTime;
 
     public Baby (float x, float y) {
         super(x, y, BOB_WIDTH, BOB_HEIGHT);
